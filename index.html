@@ -2,9 +2,16 @@
     <h1>Why is robbie a bitch?</h1>
 
     <body>
+     
     <button onclick='buttn1()'>Reason number one</button>
     <button onclick='buttn2()'>Reason number two</button>
     <button onclick='buttn4()'>other reasons</button>
+    <p id="demo2"> </p>
+    <p id="demo3"> </p>
+    <p id="demo4">  </p>
+    <p id="demo5">  </p>
+    <p id="demo6">  </p>
+
     <p id="demo">Click me bitch</p>
     <img src="https://i.gyazo.com/3a2748f614d6ca833b25f475b791799f.png"/>
     <script>
@@ -20,24 +27,30 @@
         const person1 =  new Person('penis','large','01-02-2003');
         console.log(person1);
         function buttn1() {
-           console.log('he is a pussy');
+           //console.log('he is a pussy');
+           document.getElementById("demo2").innerHTML = "he is pussy"
            counter+=1;
         }
         function buttn2(){
             counter+=1; 
-            console.log('he needs 12 hours of sleep');
+            //console.log('he needs 12 hours of sleep');
+            document.getElementById("demo3").innerHTML = "he needs 12 hours of sleep";
         }
         document.getElementById("demo").onclick = function() {buttn3()};
         function buttn3(){
             document.getElementById("demo").innerHTML = "robbie fucken sucks";
         }
         function buttn4(){
-        for(var i = 0; i < strArray.length; i++){
-            console.log(strArray[i]);
+         //console.log(strArray[i]); 
+         document.getElementById("demo4").innerHTML = strArray[0];
+         document.getElementById("demo5").innerHTML = strArray[1];
+         document.getElementById("demo6").innerHTML = strArray[2];
+
         }
-    }
+
+    
      </script>
     <p>Robbie, is a very unique creature, there is currently only one left in the world, and he should be preserved at all costs.</p>
-    
+    <p>This extraordinary creature is incredible, and he is mine</p>
     </body>
 </html>
