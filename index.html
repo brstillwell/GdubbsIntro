@@ -41,10 +41,20 @@
             document.getElementById("demo").innerHTML = "robbie fucken sucks";
         }
         function buttn4(){
-         //console.log(strArray[i]); 
-         document.getElementById("demo4").innerHTML = strArray[0];
-         document.getElementById("demo5").innerHTML = strArray[1];
-         document.getElementById("demo6").innerHTML = strArray[2];
+            // set elements into variables
+            var demo4Elem = document.getElementById("demo4");
+            var demo5Elem = document.getElementById("demo5");
+            var demo6Elem = document.getElementById("demo6");
+
+            // set text of the elements
+            demo4Elem.innerHTML = strArray[0];
+            demo5Elem.innerHTML = strArray[1];
+            demo6Elem.innerHTML = strArray[2];
+
+            // toggle the display every button press
+            demo4Elem.style.display != "block" ? demo4Elem.style.display = "block" : demo4Elem.style.display = "none";
+            demo5Elem.style.display != "block" ? demo5Elem.style.display = "block" : demo5Elem.style.display = "none";
+            demo6Elem.style.display != "block" ? demo6Elem.style.display = "block" : demo6Elem.style.display = "none";
 
         }
 
