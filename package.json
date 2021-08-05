@@ -1,0 +1,26 @@
+{
+  "name": "gdubbsintro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdubbb21/GdubbsIntro.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gdubbb21/GdubbsIntro/issues"
+  },
+  "homepage": "https://github.com/gdubbb21/GdubbsIntro#readme"
+}
