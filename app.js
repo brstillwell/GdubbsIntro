@@ -1,8 +1,8 @@
 // These are the created variables
-const express = require('express')
+const express = require('express');
 const path = require('path');
-const app = express()
-const port = 8080
+const app = express();
+const port = process.env.PORT || 3000;
 const router = express.Router();
 
 // path the index
