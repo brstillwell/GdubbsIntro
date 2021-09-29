@@ -1,16 +1,15 @@
 // These are the created variables
 const express = require('express');
-const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 const router = express.Router();
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }))
 
 // parse application/json
-app.use(bodyParser.json())
+app.use(express.json())
 
 
 // path the index
